@@ -44,11 +44,11 @@ select {
   font-size: 15px;
 }
 
-/* this setting cannot change dropdown background
-select > option {
-  background: rgb(13, 5, 85);;
+/* this setting cannot change dropdown background */
+select option {
+  background: green;
   color: white;
-} */
+}
 
 select:focus {
   outline: none;
